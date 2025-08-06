@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a backend for yt type applications",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/SubhojitBh/yt-backend/issues"
   },
-  "homepage": "https://github.com/SubhojitBh/yt-backend#readme"
+  "homepage": "https://github.com/SubhojitBh/yt-backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
